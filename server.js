@@ -19,6 +19,13 @@ const COLUMNS = [
   'kcal',
   'description',
 ];
+//get data from URL
+app.get('getData', (req, res) => {
+    
+    
+    
+})
+
 app.get('/api/food', (req, res) => {
   const param = req.query.q;
 
